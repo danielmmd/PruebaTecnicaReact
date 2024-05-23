@@ -1,0 +1,240 @@
+/* Ajustes generales */
+* {
+  font-family: "Raleway", "Karla", sans-serif;
+  background-color: #FBFBFE;
+}
+
+h1 {
+  font-family: Raleway, sans-serif;
+  color: #181F39;
+  font-size: 40px;
+  line-height: 46.96px;
+}
+
+p {
+  font-family: Karla, sans-serif;
+  font-size: 24px;
+  line-height: 28.06px;
+  color: #4459A5;
+  padding-top: 2px;
+  margin: 10px;
+}
+
+.title {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: calc(90% + 10px);
+  height: 2px;
+  background-color: #A596C8;
+}
+
+.conntainer {
+  width: 718px;
+  height: auto;
+  text-align: left;
+  margin-top: 2px;
+  margin-left: 107px;
+}
+
+.title-card {
+  font-family: Karla, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.38px;
+}
+
+.card-container {
+  width: 1358px;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.card {
+  width: 440px;
+  height: auto;
+  border-radius: 30px;
+  overflow: hidden;
+  margin: 0px;
+  border: 1px solid #181F39;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 16px 16px 0px 16px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-content h1,
+.card-content p {
+  display: flex;
+  align-items: center;
+  /* Alineamos verticalmente los elementos */
+  margin: 10px 0;
+  /* Ajustamos el margen */
+}
+
+.card-content h1 svg, 
+.card-content p svg {
+  margin-right: 5px;
+  /* Agregamos margen a la derecha de los SVG */
+}
+
+.card-content h1 {
+  font-family: Karla, sans-serif;
+  line-height: 23.38px;
+  font-size: 20px;
+  margin: 2px 0 10px 0;
+  
+}
+
+.city{
+  padding-left: 15px;
+}
+
+.profitability{
+padding-left: 15px; 
+}
+
+.card-content p {
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  line-height: 28.06px;
+  margin: 2px 0;
+} 
+
+.progress-container {
+  margin-top: 10px;
+}
+
+.vendido-text {
+  font-family: Raleway;
+  color: #181F39;
+  line-height: 11.74px;
+  margin-top: 2px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonclass {
+  padding: 16px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+  .progress-bar-container {
+    width: 100%;
+    background-color: white;
+    border-radius: 17px;
+    overflow: hidden;
+    height: 16px;
+    /* Aumenta la altura para dejar espacio suficiente para el texto */
+    margin: 5px auto;
+    /* Centra horizontalmente el contenedor */
+    position: relative;
+    /* Para posicionar el texto absolutamente dentro del contenedor */
+    border: 1px solid #181F39;
+  }
+
+  .progress-bar {
+    height: 100%;
+    background-color: #4459A5;
+    position: relative;
+    /* Establece la posición relativa para que el texto se posicione correctamente */
+  }
+
+  .progress-bar-text-black {
+    font-size: 12px;
+    position: absolute;
+    top: 45%;
+    /* Centra verticalmente el texto */
+    left: 30%;
+    /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%);
+    /* Centra completamente el texto en la mitad */
+    color: black;
+    /* Color del texto */
+    font-weight: bold;
+    /* Negrita para el texto */
+    /* Asegura que el texto esté en la parte superior */
+    width: 0px;
+  }
+
+  .progress-bar-text-white {
+    font-size: 12px;
+    position: absolute;
+    top: 45%;
+    /* Centra verticalmente el texto */
+    left: 25%;
+    /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%);
+    /* Centra completamente el texto en la mitad */
+    color: #FBFBFE;
+    /* Color del texto */
+    font-weight: bold;
+    /* Negrita para el texto */
+    /* Asegura que el texto esté en la parte superior */
+    width: 0px;
+  }
+
+
+.button1 {
+  align-items: center;
+  width: 163px;
+  height: 37px;
+  top: 134px;
+  background-color: white;
+  border-radius: 7px;
+  font-size: 20px;
+  font: Raleway;
+  color: #181F39;
+  line-height: 23.48px;
+  margin-right: 13px;
+}
+
+.button2 {
+  align-items: center;
+  width: 163px;
+  height: 37px;
+  top: 134px;
+  background-color: #181F39;
+  border-radius: 7px;
+  font-size: 20px;
+  font: Raleway;
+  color: #FBFBFE;
+  line-height: 23.48px;
+  margin-right: 13px;
+}
+
+.button1:hover {
+  background-color: #181F39;
+  color: #FBFBFE;
+}
